@@ -47,4 +47,4 @@ The API consists of three parts:
 - `startRecording([options])` which starts recording a given Chrome instance. The recording defaults to
 `localhost:9222`. Overide this by passing a [CDP options object](https://github.com/cyrus-and/chrome-remote-interface/blob/master/README.md#cdpoptions-callback).
 
-- `endRecording(filePath)` which saves the recording to file resets the stored requests.  
+- `endRecording(filePath)` which saves the HAR recording to a file and resets the stored requests.  
