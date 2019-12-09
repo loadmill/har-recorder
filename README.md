@@ -2,6 +2,8 @@
 
 Use this package to capture HAR recordings from Chrome sessions or Selenium tests.
 
+Using the [Chrome Debugging Protocol](https://chromedevtools.github.io/devtools-protocol/) thorugh [chrome-remote-interface](https://github.com/cyrus-and/chrome-remote-interface) this pakcage listens to Chrome Fetch events and stores requests and reponses to HAR file.
+
 ## Selenium usage example
 
 ```javascript
@@ -20,8 +22,8 @@ driver = await new Builder()
 await startRecording({ port: 9223 });
 
 // do Selenium stuff 
-await driver.navigate().to('http://www.google.com');
-await driver.wait(until.elementLocated(By.name('identification')));
+await driver.navigate().to('https://www.google.com');
+await driver.wait(until.elementLocated(By.name('q')));
 
 // save recording to file
 endRecording('create-blog-post.har');
