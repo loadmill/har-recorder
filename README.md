@@ -7,7 +7,7 @@ Use this package to capture HAR recordings from Chrome sessions or Selenium test
 ```javascript
 const { startRecording, endRecording } = HarRecorder();
 
-// Enable chrome remote debugging on port 9223
+// enable chrome remote debugging on port 9223
 let chrome_options = new chrome.Options()
     .addArguments("--remote-debugging-port=9223");
 
