@@ -26,8 +26,8 @@ describe('Capture har from selenium', async function () {
 
     it('Load test blog', async function () {
 
-        await driver.navigate().to('https://loadmill-test-blog.herokuapp.com/ghost/signin/');
-        await driver.wait(until.elementLocated(By.name('identification')));
+        await driver.navigate().to('https://www.google.com');
+        await driver.wait(until.elementLocated(By.name('q')));
 
     });
 
