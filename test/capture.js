@@ -1,11 +1,11 @@
-import { Builder, By, Key, until } from "selenium-webdriver";
+import { Builder, By, until } from "selenium-webdriver";
 const chrome = require('selenium-webdriver/chrome');
 
 const HarRecorder = require('../');
 
 describe('Capture har from selenium', async function () {
     let driver;
-    this.timeout(5000);
+    this.timeout(10000);
 
     // create an HarRecorder  
     const { startRecording, endRecording } = HarRecorder();
