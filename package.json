@@ -1,6 +1,6 @@
 {
   "name": "har-recorder",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "capture HAR recordings from Chrome sessions or Selenium tests",
   "main": "index.js",
   "scripts": {
