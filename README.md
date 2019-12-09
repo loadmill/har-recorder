@@ -2,6 +2,8 @@
 
 Use this package to capture HAR recordings from Chrome sessions or Selenium tests.
 
+Using the [Chrome Debugging Protocol](https://chromedevtools.github.io/devtools-protocol/) thorugh [chrome-remote-interface](https://github.com/cyrus-and/chrome-remote-interface) this pakcage listens to Chrome Fetch events and stores requests and reponses to HAR file.
+
 ## Selenium usage example
 
 ```javascript
