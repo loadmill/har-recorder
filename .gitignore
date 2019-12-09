@@ -1,3 +1,6 @@
+# Ignore test har files
+*.har
+
 # Logs
 logs
 *.log

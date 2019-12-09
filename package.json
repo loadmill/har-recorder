@@ -4,7 +4,12 @@
   "description": "capture HAR recordings from Chrome sessions or Selenium tests",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "./node_modules/.bin/_mocha --require babel-core/register --require babel-polyfill test"
+  },
+  "babel": {
+    "presets": [
+      "env"
+    ]
   },
   "repository": {
     "type": "git",
@@ -27,5 +32,14 @@
   "homepage": "https://github.com/loadmill/har-recorder#readme",
   "dependencies": {
     "chrome-remote-interface": "^0.28.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chromedriver": "^78.0.1",
+    "mocha": "^5.2.0",
+    "selenium-webdriver": "^4.0.0-alpha.5",
+    "babel-core": "^6.26.3",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
   }
 }
