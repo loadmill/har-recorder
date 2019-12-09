@@ -22,8 +22,8 @@ driver = await new Builder()
 await startRecording({ port: 9223 });
 
 // do Selenium stuff 
-await driver.navigate().to('http://www.google.com');
-await driver.wait(until.elementLocated(By.name('identification')));
+await driver.navigate().to('https://www.google.com');
+await driver.wait(until.elementLocated(By.name('q')));
 
 // save recording to file
 endRecording('create-blog-post.har');
