@@ -1,0 +1,31 @@
+{
+  "name": "har-recorder",
+  "version": "0.0.1",
+  "description": "capture HAR recordings from Chrome sessions or Selenium tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loadmill/har-recorder.git"
+  },
+  "keywords": [
+    "capture",
+    "selenium",
+    "har",
+    "recording",
+    "chrome",
+    "devtools",
+    "protocol"
+  ],
+  "author": "idoco",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/loadmill/har-recorder/issues"
+  },
+  "homepage": "https://github.com/loadmill/har-recorder#readme",
+  "dependencies": {
+    "chrome-remote-interface": "^0.28.0"
+  }
+}
