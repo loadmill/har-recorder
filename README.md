@@ -44,7 +44,7 @@ running on a known port in order to use this module (defaults to
 
 The API consists of three parts:
 
-- The contractor function which creates a new HarRecorder.
+- The constructor function which creates a new HarRecorder.
 
 - `startRecording([options])` which starts recording a given Chrome instance. The recording defaults to
 `localhost:9222`. Overide this by passing a [CDP options object](https://github.com/cyrus-and/chrome-remote-interface/blob/master/README.md#cdpoptions-callback).
