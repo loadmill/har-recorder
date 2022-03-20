@@ -1,0 +1,12 @@
+name: "Validate emoji"
+on:
+  pull_request:
+    types: [opened, edited, reopened]
+
+jobs:
+  validate-emoji:
+    runs-on: ubuntu-latest
+    steps:
+    
+    - name: Pull request title should start with emoji
+      uses: loadmill/1kWords@v1.0.2
