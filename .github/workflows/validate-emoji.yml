@@ -10,3 +10,6 @@ jobs:
     
     - name: Pull request title should start with emoji
       uses: loadmill/1kWords@v1.0.4
+      
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
