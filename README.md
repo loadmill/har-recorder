@@ -50,3 +50,5 @@ The API consists of three parts:
 `localhost:9222`. Overide this by passing a [CDP options object](https://github.com/cyrus-and/chrome-remote-interface/blob/master/README.md#cdpoptions-callback).
 
 - `endRecording(filePath)` which saves the HAR recording to a file and resets the stored requests.  
+
+
