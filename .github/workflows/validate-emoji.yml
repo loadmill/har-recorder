@@ -9,4 +9,4 @@ jobs:
     steps:
     
     - name: Pull request title should start with emoji
-      uses: loadmill/1kWords@v1.0.3
+      uses: loadmill/1kWords@v1.0.4
